@@ -64,7 +64,7 @@
 - ViewModel Unit Test는 상태가 올바르게 바뀌는지 검증한다.
 - View Widget Test는 그 상태가 화면에 올바르게 표현되는지 검증한다. ViewModel에 Fake Repository를 주입해 원하는 상태를 만든다. `go_router`를 쓰는 화면은 테스트용 Router를 주입한다.
 - Integration Test는 로그인, 주요 화면 이동 같은 핵심 사용자 흐름 몇 개만 실제 브라우저에서 검증한다. 모든 흐름을 E2E로 덮으려 하지 않는다. 느리고 깨지기 쉬워서다.
-- CI에서 `flutter test --coverage`를 돌린다.
+- CI에서 `flutter analyze`와 `flutter test`를 돌린다.
 
 ## 폴더 구조
 
