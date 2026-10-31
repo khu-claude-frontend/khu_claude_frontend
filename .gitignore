@@ -48,3 +48,6 @@ app.*.map.json
 .widget_preview/
 
 .obsidian/
+
+# FVM Version Cache
+.fvm/
